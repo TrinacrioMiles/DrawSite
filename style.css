@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icenter{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    margin: 15px 0;
+    font-family: 'Hubballi', cursive;
+}
+
+/* TOOLBAR */
+
+#toolbar{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: rgb(109, 170, 255);
+}
+#toolbar>ul li{
+    display: inline-block;
+    transition: ease .5s all;
+}
+#toolbar>ul>li:hover{
+    background-color: rgb(82, 141, 224);
+}
+#toolbar>ul li>input, img{
+    height: 30px;
+}
+
+#toolbar>ul li>input[type="number"]{
+    height: 20px;
+    width: 50px;
+    margin-left: 7px;
+}
+
+#toolbar>ul>div{
+    margin-right: 20px;
+}
+
+#pcolor{
+    width: 25px;
+    height: 25px;
+    margin-left: 4px;
+}
+
+#toolbar>ul>li:focus{
+    background-color: rgb(82, 141, 224);
+}
+
+#toolbar>ul:nth-child(2)>li{
+    padding: 0 5px;
+}
+
+#toolbar>ul:nth-child(2){
+    padding-right: 260px;
+}
+
+@import url('Fonts/Hubballi/Hubballi-Regular.ttf');

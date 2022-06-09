@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawSite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icons/SiteLogo.jpeg">
+</head>
+<body>
+
+    <div id="title" class="center"><h1>DrawSite</h1></div>
+
+    <div id="toolbar">
+        <ul>
+            <div class="icenter">
+                <li><img src="Icons/change_thickness.png"></li>
+                <li><input type="number" id="pthick"></li>
+            </div>
+            <div class="icenter">
+                <li><img src="Icons/change_color.png"</li>
+                <li><input type="color" id="pcolor"></li>
+            </div>
+            <div class="icenter">
+                <li><img src="Icons/forms.png"</li>
+                <li><input type="number" id="formsX"></li>
+                <li><input type="number" id="formsY"></li>
+            </div>
+        </ul>
+        <ul>
+            <li id="pgum"><input type="image" src="Icons/gum.png"></li>
+            <li id="ppencil"><input type="image" src="Icons/pencil.png"</li>
+            <li id="pline"><input type="image" src="Icons/line.png"</li>
+        </ul>
+        <ul>
+            <li id="circle"><input type="image" src="Icons/circle.png"></li>
+            <li id="square"><input type="image" src="Icons/square.png"></li>
+            <li id="triangle"><input type="image" src="Icons/triangle.png"></li>
+        </ul>
+    </div>
+
+    <canvas id="work-sheet"></canvas>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
